@@ -1,0 +1,21 @@
+:root {
+    --azul-marinho: #1D3557;
+    --rosa-coral: #FF6F61;
+    --lavanda: #D4A5FF;
+    --branco-gelo: #F9F9F9;
+}
+body {
+    background-color: var(--branco-gelo);
+    color: var(--azul-marinho);
+}
+.btn-primary {
+    background-color: var(--rosa-coral);
+    border-color: var(--rosa-coral);
+}
+.btn-primary:hover {
+    background-color: var(--lavanda);
+    border-color: var(--lavanda);
+}
+.navbar, footer {
+    background-color: var(--azul-marinho) !important;
+}
